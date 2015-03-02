@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+suits = %w{s c h d}
+ranks = %w{1 2 3 4 5 6 7 8 9 10 11 12 13}
+
+suits.each do |suit|
+  ranks.size.times do |i|
+    id = suit + ranks[i].to_s
+    State.create(card_id: id, card_state: 'in_deck')
+  end
+end
