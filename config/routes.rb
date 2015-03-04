@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+
+  get 'game_play/index'
+  get 'game_play/moveToF1'
+  get 'game_play/moveToF2'
+  get 'game_play/moveToF3'
+  get 'game_play/moveToF4'
+
+  root 'game_play#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
