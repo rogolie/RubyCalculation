@@ -11,13 +11,64 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150302024257) do
+ActiveRecord::Schema.define(version: 20150305011815) do
 
-  create_table "states", force: true do |t|
-    t.string   "card_id"
-    t.string   "card_state"
+  create_table "cards", force: true do |t|
+    t.string  "card_id"
+    t.integer "value"
+    t.string  "suit"
+  end
+
+  create_table "deck_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "point1_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "point2_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "point3_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "point4_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "tests", force: true do |t|
+    t.string   "name"
+    t.string   "define"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "waste1_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "waste2_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "waste3_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
+  end
+
+  create_table "waste4_cards", force: true do |t|
+    t.integer "index"
+    t.string  "card_id"
   end
 
 end

@@ -12,6 +12,6 @@ ranks = %w{1 2 3 4 5 6 7 8 9 10 11 12 13}
 suits.each do |suit|
   ranks.size.times do |i|
     id = suit + ranks[i].to_s
-    State.create(card_id: id, card_state: 'in_deck')
+    Card.create(card_id: id, value: ranks[i], suit: suit)
   end
 end
