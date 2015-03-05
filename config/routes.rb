@@ -1,10 +1,8 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
   namespace :api, defaults: {format: 'json'} do
     resources :cards, :deck_cards, :point1_cards, :point2_cards, :point3_cards, :point4_cards
   end
 
-=======
 
   get 'game_play/index'
   get 'game_play/moveToF1'
@@ -13,7 +11,7 @@ Rails.application.routes.draw do
   get 'game_play/moveToF4'
 
   root 'game_play#index'
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
