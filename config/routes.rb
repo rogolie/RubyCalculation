@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
-    resources :cards
+    resources :cards, :deck_cards, :point1_cards, :point2_cards, :point3_cards, :point4_cards
   end
 
   # The priority is based upon order of creation: first created -> highest priority.

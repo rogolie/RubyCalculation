@@ -20,55 +20,57 @@ ActiveRecord::Schema.define(version: 20150305011815) do
   end
 
   create_table "deck_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "point1_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "point2_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "point3_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "point4_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
-  end
-
-  create_table "tests", force: true do |t|
-    t.string   "name"
-    t.string   "define"
-    t.datetime "created_at"
-    t.datetime "updated_at"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "waste1_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "waste2_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "waste3_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
   create_table "waste4_cards", force: true do |t|
-    t.integer "index"
     t.string  "card_id"
+    t.string "value"
+    t.string "suit"
   end
 
 end

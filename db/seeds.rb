@@ -12,6 +12,17 @@ ranks = %w{1 2 3 4 5 6 7 8 9 10 11 12 13}
 suits.each do |suit|
   ranks.size.times do |i|
     id = suit + ranks[i].to_s
-    Card.create(card_id: id, value: ranks[i], suit: suit)
+    if(id == "s1")
+      Point1_card.create(card_id: id, value: ranks[i], suit: suit)
+    elsif (id=="s2")
+      Point2_card.create(card_id: id, value: ranks[i], suit: suit)
+    elsif (id=="s3")
+      Point3_card.create(card_id: id, value: ranks[i], suit: suit)
+    elsif (id=="s4")
+      Point4_card.create(card_id: id, value: ranks[i], suit: suit)
+    else
+      Deck_card.create(card_id: id, value: ranks[i], suit: suit)
+    end
   end
 end
+
