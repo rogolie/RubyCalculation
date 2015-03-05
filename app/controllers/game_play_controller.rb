@@ -6,6 +6,7 @@ class GamePlayController < ApplicationController
   $found2 = []
   $found3 = []
   $found4 = []
+  $cardsFromDB = Card.all
 
   def index
 
