@@ -1,11 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a79b678c-75bd-451d-97d2-c66de0236d8a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="5669993a-19bb-4cfa-a293-910eee63804b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/images/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/controllers/concerns/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/mailers/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/models/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/models/concerns/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/lib/assets/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/lib/tasks/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/log/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/controllers/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/fixtures/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/helpers/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/integration/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/mailers/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/models/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/vendor/assets/javascripts/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/vendor/assets/stylesheets/.keep" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/059e5e479a857e76affbf0c405e4f769" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/10ef3a544e313a8752304cd2c9748f92" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/10fcfbe6ebae11a40c8eac41939a1b9a" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/13fe41fee1fe35b49d145bcc06610705" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/141ee7eadba864a76050e96d57e3982e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/18cc0b7c757c0f40d3cb54a960ff551f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/1f7eea56fff3f25eb4309c4b59c7a018" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/274f1c8cc96549980a6ad03c3eecdb3c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/285bb3161556e598af750f850f0d5dbc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/2aed17416c51efaa2569dac1ceb3bdb8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/2d5e812cbff451105b573c6057efc96f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/2f5173deea6c795b8fdde723bb4b63af" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/357970feca3ac29060c1e3861e2c0953" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/38643154915ecd9c2120b4dabade74dc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/41e17974dc92fa11983cd7350059f3d3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/432838e23d5a16b9f3a41edc23187912" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/456e298663d3c2e867ba12e56b7ecbe0" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/4c088c239eef4a9484e725d8d76915e1" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/502ae7ced4324bbb7b9d968b85bb60b2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/5e17bc28b9f21438b9761e55bc130035" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/63683436b5e47cb8610a6838e022dea6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/66049f171ebbd51a52a87e49cd14a5d4" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/69b44f0dde0911b44be4e23a612de927" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/6acb465248c89935076e2dbbe7915c45" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/6b1a1707325fed1eadffce7844960308" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/6c15a1deb638a7d3a5f3415f4af80dcc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/720bcc5d815c0eb71fabd37c1c64d70b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/7a58cf3260d09a5ab18e94111973f87c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/7aed07cd9be2e9410e01667af8177264" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/8392a1e1d297f30b69a3f5d6ffafab15" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/839fad375a2da0e9bafd4edfd632e5ce" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/867c6ec0a8bf098654ed963cd3d26755" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/9190dfbd39d7b521c55d80c2805362a7" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/9851e5a9ebb7f1825512796666196b9b" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/9a3674d7ffe3faf91ed5bdb9c4720a7f" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/a0ab2c54b364e8ba541ee9eb3ad1dddf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/a0db5db7c663b8c12a6f6dcfc69ceb81" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/a4eae1d019d9fec5c157a0088af46d76" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/b268081c45ac968ff92511180c74ad0e" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/bc41e1d249373a13c288f6c709ac3963" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/bd3936370d0f952ada5774e2230046ed" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/bef62ca9e94ae91e3e1287c1b9a2e86c" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/c9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/cffd775d018f68ce5dba1ee0d951a994" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/d287f7f8a0993926edf693d0d61250eb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/d3f4c00c05e55ab0d4234b94b90465b9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/d771ace226fc8215a3572e0aa35bb0d6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/d8bcb23a95eb9ba230f432130171dae9" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/d9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/db4de6179860a4436b52eed783e9de63" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/dc82457c1b4ca6636c4b3fe1221216cc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/db/development.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/e1eaa9a148559807fe8d58e96ff11362" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/e459168835a5f27b832ace20874f7c10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sprockets/f7cbd26ba1d28d48de824f0e94586655" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/public/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sass/5c464774ff8b55bbbae95ec536a6b709f72aa048/game_play.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/h9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/images/s9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sass/5c464774ff8b55bbbae95ec536a6b709f72aa048/scaffolds.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/db/test.sqlite3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/cache/assets/development/sass/5c464774ff8b55bbbae95ec536a6b709f72aa048/tests.css.scssc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/public/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/public/422.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/public/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/README.rdoc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/Rakefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/stylesheets/application.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/views/layouts/application.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/javascripts/application.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/application.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/helpers/application_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/assets.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/backtrace_silencers.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/boot.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/bin/bundle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/models/card_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/fixtures/cards.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config.ru" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/cookies_serializer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/database.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/models/deck_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/fixtures/decks.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/log/development.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/environments/development.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/locales/en.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/environment.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/filter_parameter_logging.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/stylesheets/game_play.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/controllers/game_play_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/helpers/game_play_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/helpers/game_play_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/inflections.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/mime_types.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/environments/production.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/bin/rails" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/bin/rake" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/public/robots.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/routes.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/stylesheets/scaffolds.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/db/schema.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/secrets.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/db/seeds.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/tmp/pids/server.pid" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/session_store.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/environments/test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/test_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/models/test_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/stylesheets/tests.css.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/assets/javascripts/tests.js.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/fixtures/tests.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/controllers/tests_controller_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/app/helpers/tests_helper.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/test/helpers/tests_helper_test.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/CalculationAPI/config/initializers/wrap_parameters.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/RubyCalculation.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Development__RubyCalculation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Production__RubyCalculation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/spec__RubyCalculation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/test__RubyCalculation.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/card.rb" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/api/cards_controller.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/controllers/api/cards_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/api/deck_cards_controller.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/controllers/api/deck_cards_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/api/point1_cards_controller.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/controllers/api/point1_cards_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/api/point2_cards_controller.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/controllers/api/point2_cards_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/api/point3_cards_controller.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/controllers/api/point3_cards_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/controllers/api/point4_cards_controller.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/controllers/api/point4_cards_controller.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/deck_card.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/models/deck_card.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/point1_card.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/models/point1_card.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/point2_card.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/models/point2_card.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/point3_card.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/models/point3_card.rb" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/models/point4_card.rb" afterPath="$PROJECT_DIR$/CalculationAPI/app/models/point4_card.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/game_play_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/game_play_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/game_play/index.erb" afterPath="$PROJECT_DIR$/app/views/game_play/index.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
     </list>
     <ignored path="RubyCalculation.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,9 +231,6 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/RubyCalculation@Development__RubyCalculation.coverage" NAME="Development: RubyCalculation Coverage Results" MODIFIED="1425585642781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyCalculation" />
-  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -30,93 +243,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.2927928" vertical-offset="225" max-vertical-offset="990">
-              <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deck_cards_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/deck_cards_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="point1_cards_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/point1_cards_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-=======
-      <file leaf-file-name="game_play_controller.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game_play_controller.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/game_play_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.075" vertical-offset="21" max-vertical-offset="884">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1185">
+              <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="point2_cards_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/point2_cards_controller.rb">
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CalculationAPI/db/seeds.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-=======
-      <file leaf-file-name="card.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+            <state vertical-scroll-proportion="-4.632353" vertical-offset="0" max-vertical-offset="570">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="point3_cards_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/point3_cards_controller.rb">
+      <file leaf-file-name="schema.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-=======
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+              <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21159874" vertical-offset="0" max-vertical-offset="638">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.erb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/game_play/index.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.76923" vertical-offset="107" max-vertical-offset="714">
-              <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< HEAD
-      <file leaf-file-name="point4_cards_controller.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/api/point4_cards_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-=======
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1190">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+            <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="690">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -124,60 +295,33 @@
       </file>
     </leaf>
   </component>
-<<<<<<< HEAD
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/db/migrate/20150302024257_create_states.rb" />
-        <option value="$PROJECT_DIR$/db/migrate/20150305003756_create_decks.rb" />
-        <option value="$PROJECT_DIR$/app/models/card.rb" />
-        <option value="$PROJECT_DIR$/app/models/deck.rb" />
-        <option value="$PROJECT_DIR$/app/models/deck_card.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/tests_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/cards_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/api/cards/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/cards_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/point1_card.rb" />
-        <option value="$PROJECT_DIR$/app/models/point2_card.rb" />
-        <option value="$PROJECT_DIR$/app/models/point3_card.rb" />
-        <option value="$PROJECT_DIR$/app/models/point4_card.rb" />
-        <option value="$PROJECT_DIR$/db/schema.rb" />
-        <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/deck_cards_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/point1_cards_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/point3_cards_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/point4_cards_controller.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/api/point2_cards_controller.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-=======
-  <component name="GeneratorOptions">
-    <option name="VCS_SHOW_CONFIRMATION" value="true" />
-    <option name="ENVIRONMENT" value="development" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/controllers/game_play_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/point2_cards_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/point3_cards_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/point4_cards_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/point1_cards_controller.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config/environment.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/deck_cards_controller.rb" />
+        <option value="$PROJECT_DIR$/CalculationAPI/app/models/deck_card.rb" />
+        <option value="$PROJECT_DIR$/CalculationAPI/config/routes.rb" />
+        <option value="$PROJECT_DIR$/CalculationAPI/app/controllers/api/deck_cards_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/game_play/index.erb" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+        <option value="$PROJECT_DIR$/app/controllers/game_play_controller.rb" />
+        <option value="$PROJECT_DIR$/CalculationAPI/db/seeds.rb" />
+        <option value="$PROJECT_DIR$/db/schema.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="51" />
@@ -185,26 +329,7 @@
     <option name="width" value="1315" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-          <State>
-            <id>Rails</id>
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>RailsChecklist02</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -255,51 +380,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="lib" />
-=======
-              <option name="myItemId" value="db" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyCalculation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyCalculation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="config" />
-=======
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyCalculation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyCalculation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="app" />
-=======
-              <option name="myItemId" value="config" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -317,40 +398,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-<<<<<<< HEAD
-              <option name="myItemId" value="controllers" />
-=======
-              <option name="myItemId" value="views" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyCalculation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RubyCalculation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-<<<<<<< HEAD
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="api" />
-=======
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="RubyCalculation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RubyCalculation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="game_play" />
+              <option name="myItemId" value="CalculationAPI" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -364,8 +426,55 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="CalculationAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RubyCalculation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RubyCalculation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CalculationAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RubyCalculation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RubyCalculation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CalculationAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,28 +485,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="FullScreen" value="false" />
-<<<<<<< HEAD
-    <property name="options.lastSelected" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/controllers/api" />
-      <recent name="$PROJECT_DIR$/app/models" />
-      <recent name="$PROJECT_DIR$/app/controllers" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/controllers/api" />
-    </key>
-=======
-    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
   </component>
   <component name="RunManager" selected="Rails.Development: RubyCalculation">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -443,7 +533,7 @@
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="SCRIPT_ARGS" VALUE="" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="PORT" VALUE="3000" />
-      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="127.0.0.1" />
+      <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="IP" VALUE="0.0.0.0" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="DUMMY_APP" VALUE="test/dummy" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="RAILS_SERVER_TYPE" VALUE="Default" />
       <RAILS_SERVER_CONFIG_SETTINGS_ID NAME="ENVIRONMENT_TYPE" VALUE="development" />
@@ -461,15 +551,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-<<<<<<< HEAD
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-=======
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -496,15 +582,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-<<<<<<< HEAD
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-=======
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
@@ -524,15 +606,11 @@
       <envs />
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-<<<<<<< HEAD
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
         <COVERAGE_PATTERN ENABLED="true">
           <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
         </COVERAGE_PATTERN>
       </EXTENSION>
-=======
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
@@ -546,15 +624,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-<<<<<<< HEAD
-=======
       <node-options />
       <gulpfile />
       <tasks />
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
       <method />
     </configuration>
     <list size="4">
@@ -565,55 +640,36 @@
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a79b678c-75bd-451d-97d2-c66de0236d8a" name="Default" comment="" />
-      <created>1425236499350</created>
+      <changelist id="5669993a-19bb-4cfa-a293-910eee63804b" name="Default" comment="" />
+      <created>1425611004040</created>
       <option name="number" value="Default" />
-      <updated>1425236499350</updated>
+      <updated>1425611004040</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="51" y="24" width="1315" height="744" extended-state="6" />
+    <frame x="51" y="24" width="1315" height="744" extended-state="0" />
     <editor active="false" />
-=======
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25323194" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25945538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24942966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3291536" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291536" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
@@ -635,404 +691,157 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/game_play_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1410">
+          <caret line="38" column="43" selection-start-line="38" selection-start-column="43" selection-end-line="38" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game_play/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="714">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1190">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/game_play_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="884">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game_play/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1190">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="675">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-=======
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="38" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-=======
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="165">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1215">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculationAPI/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/game_play/index.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3963964" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="62" column="7" selection-start-line="62" selection-start-column="7" selection-end-line="62" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="32" max-vertical-offset="675">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.076576576" vertical-offset="9" max-vertical-offset="705">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="735">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/point1_card.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/game_play/moveToF4.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/point2_card.rb">
+    <entry file="file://$PROJECT_DIR$/CalculationAPI/app/controllers/api/cards_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/point3_card.rb">
+    <entry file="file://$PROJECT_DIR$/CalculationAPI/app/models/deck_card.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="638">
+          <caret line="0" column="36" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/point4_card.rb">
+    <entry file="file://$PROJECT_DIR$/CalculationAPI/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="666">
-          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.18808778" vertical-offset="0" max-vertical-offset="1200">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+    <entry file="file://$PROJECT_DIR$/CalculationAPI/app/controllers/api/deck_cards_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.067567565" vertical-offset="0" max-vertical-offset="666">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1305">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18808778" vertical-offset="0" max-vertical-offset="1215">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.023510972" vertical-offset="0" max-vertical-offset="638">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/game_play_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="292" max-vertical-offset="1185">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/game_play/index.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="690">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CalculationAPI/db/seeds.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.632353" vertical-offset="0" max-vertical-offset="570">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34684685" vertical-offset="159" max-vertical-offset="1230">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09009009" vertical-offset="0" max-vertical-offset="666">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/deck_card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.067567565" vertical-offset="0" max-vertical-offset="666">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/deck_cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/point1_cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/game_play/moveToF2.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game_play/moveToF4.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game_play/moveToF3.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/game_play/moveToF1.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="400">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1190">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/point3_cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-=======
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/point2_cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/views/game_play/index.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.76923" vertical-offset="107" max-vertical-offset="714">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/app/controllers/api/point4_cards_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1230">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/models/card.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
-          <folding />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.2927928" vertical-offset="225" max-vertical-offset="990">
-          <caret line="2" column="93" selection-start-line="2" selection-start-column="93" selection-end-line="2" selection-end-column="93" />
-=======
-    <entry file="file://$PROJECT_DIR$/app/controllers/game_play_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.075" vertical-offset="21" max-vertical-offset="884">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
->>>>>>> f7feab0ebbf414d8821055b390d448aa222aed1d
+        <state vertical-scroll-proportion="0.21159874" vertical-offset="0" max-vertical-offset="638">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

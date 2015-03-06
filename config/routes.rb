@@ -1,9 +1,15 @@
 Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
-    resources :cards, :deck_cards, :point1_cards, :point2_cards, :point3_cards, :point4_cards
+    get 'deck_cards/top' => 'deck_cards#top'
+    get 'point1_cards/top' => 'point1_cards#top'
+    get 'point2_cards/top' => 'point2_cards#top'
+    get 'point3_cards/top' => 'point3_cards#top'
+    get 'point4_cards/top' => 'point4_cards#top'
+    get 'points1_cards/:id' => 'point1_cards#show'
+    get 'deck_cards' => 'deck_cards#index'
+    resources :deck_cards, :point1_cards, :point2_cards, :point3_cards, :point4_cards
+
   end
-
-
   get 'game_play/index'
   get 'game_play/moveToF1'
   get 'game_play/moveToF2'
