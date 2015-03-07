@@ -1,0 +1,44 @@
+<h1>Calculation</h1>
+
+<h4>Deck</h4>
+<% $cards.each do |card| %>
+        <tr>
+          <td><%= card %></td>
+        </tr>
+<% end %>
+
+<h4>Deck from DB</h4>
+<% $cardsFromDB.each do |card| %>
+    <tr>
+      <td><%= card.card_id %></td>
+    </tr>
+<% end %>
+
+<h5>Foundation 1: <%= link_to 'Move', action: 'moveToF1' %></h5>
+<% $found1.each do |card| %>
+        <tr>
+            <td><%= card %></td>
+        </tr>
+<% end %>
+
+
+<h5>Foundation 2: <%= link_to 'Move', action: 'moveToF2' %></h5>
+<% $found2.each do |card| %>
+        <tr>
+            <td><%= card %></td>
+        </tr>
+<% end %>
+
+<h5>Foundation 3: <%= link_to 'Move', action: 'moveToF3' %></h5>
+<% $found3.each do |card| %>
+        <tr>
+          <td><%= card %></td>
+        </tr>
+<% end %>
+
+<h5>Foundation 4: <%= link_to 'Move', action: 'moveToF4' %></h5>
+<% $found4.each do |card| %>
+        <tr>
+            <td><%= card %></td>
+        </tr>
+<% end %>
