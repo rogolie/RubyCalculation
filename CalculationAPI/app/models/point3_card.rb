@@ -1,3 +1,2 @@
-class Point3_card < ActiveRecord::Base
-  has_many :cards
+class Point3Card < ActiveRecord::Base
 end

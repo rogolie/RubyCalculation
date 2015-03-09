@@ -1,3 +1,2 @@
-class Waste3_card < ActiveRecord::Base
-  has_many :cards
+class Waste3Card < ActiveRecord::Base
 end

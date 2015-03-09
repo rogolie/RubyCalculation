@@ -13,13 +13,13 @@ suits.each do |suit|
   ranks.size.times do |i|
     id = suit + ranks[i].to_s
     if(id == "s1")
-      Point1_card.create(card_id: id, value: ranks[i], suit: suit)
+      Point1Card.create(card_id: id, value: ranks[i], suit: suit)
     elsif (id=="s2")
-      Point2_card.create(card_id: id, value: ranks[i], suit: suit)
+      Point2Card.create(card_id: id, value: ranks[i], suit: suit)
     elsif (id=="s3")
-      Point3_card.create(card_id: id, value: ranks[i], suit: suit)
+      Point3Card.create(card_id: id, value: ranks[i], suit: suit)
     elsif (id=="s4")
-      Point4_card.create(card_id: id, value: ranks[i], suit: suit)
+      Point4Card.create(card_id: id, value: ranks[i], suit: suit)
     else
       @deck_stack << [id, ranks[i],suit]
     end
@@ -27,6 +27,6 @@ suits.each do |suit|
 end
 @deck_stack.shuffle!
 @deck_stack.size.times do |i|
-  Deck_card.create(card_id: @deck_stack[i][0], value: @deck_stack[i][1], suit: @deck_stack[i][2])
+  DeckCard.create(card_id: @deck_stack[i][0], value: @deck_stack[i][1], suit: @deck_stack[i][2])
 end
 
