@@ -1,44 +1,166 @@
 <h1>Calculation</h1>
 
-<h4>Deck</h4>
-<% $cards.each do |card| %>
-        <tr>
-          <td><%= card %></td>
-        </tr>
-<% end %>
+<h4>Test Deck</h4>
+<table>
+  <tr>
+    <% $cards.each do |card| %>
+          <td><%=card.id %></td>
+    <% end %>
+  </tr>
+  <tr>
+    Cards Left on Deck: <stron><%= $cards.count %></stron>
+  </tr>
+</table>
 
-<h4>Deck from DB</h4>
-<% $cardsFromDB.each do |card| %>
+<br>
+<table>
+  <thead>
+      <th style="text-align: center">Top Card</th>
+      <th style="padding-left: 30px; text-align: center">Move To</th>
+      <th style="padding-left: 30px; text-align: center">Move To</th>
+  </thead>
+  <tbody>
+      <tr>
+        <td><%= image_tag($cards.last.id+'.png', alt: '{card.id}') %></td>
+        <td style="padding-left: 30px;">
+            <table>
+              <tr><td><%= link_to 'Foundation 1', {action: 'moveToF1'}, {:class => "myButton"} %></td></tr>
+              <tr><td><%= link_to 'Foundation 2', {action: 'moveToF2'}, {:class => 'myButton'} %></td></tr>
+              <tr><td><%= link_to 'Foundation 3', {action: 'moveToF3'}, {:class => 'myButton'} %></td></tr>
+              <tr><td><%= link_to 'Foundation 4', {action: 'moveToF4'}, {:class => 'myButton'} %></td></tr>
+            </table>
+        </td>
+        <td style="padding-left: 30px;">
+            <table>
+                <tr><td><%= link_to 'Waste 1', {action: 'moveToW1'}, {:class => 'myButton'} %></td></tr>
+                <tr><td><%= link_to 'Waste 2', {action: 'moveToW2'}, {:class => 'myButton'} %></td></tr>
+                <tr><td><%= link_to 'Waste 3', {action: 'moveToW3'}, {:class => 'myButton'} %></td></tr>
+                <tr><td><%= link_to 'Waste 4', {action: 'moveToW4'}, {:class => 'myButton'} %></td></tr>
+            </table>
+        </td>
+        </td>
+      </tr>
+  </tbody>
+</table>
+
+<!--<h3>Foundation 1</h3>-->
+<table class="foundation">
+  <thead>
+  <th>Foundation 1</th>
+  <th>Foundation 2</th>
+  <th>Foundation 3</th>
+  <th>Foundation 4</th>
+  </thead>
+  <tbody>
     <tr>
-      <td><%= card.card_id %></td>
+      <td class="foundationStacks">
+        <table>
+              <% $found1.each do |card| %>
+              <tr>
+                <td>
+                  <%= image_tag(card.id+'.png', alt: card.id ) %>
+                </td>
+              </tr>
+              <% end %>
+        </table>
+      </td>
+      <td class="foundationStacks">
+        <table>
+      <% $found2.each do |card| %>
+              <tr>
+                <td>
+          <%= image_tag(card.id+'.png', alt: card.id) %>
+                </td>
+              </tr>
+          <% end %>
+        </table>
+      </td>
+      <td class="foundationStacks">
+        <table>
+      <% $found3.each do |card| %>
+              <tr>
+                <td>
+          <%= image_tag(card.id+'.png', alt: card.id) %>
+                </td>
+              </tr>
+          <% end %>
+        </table>
+      </td>
+      <td class="foundationStacks">
+        <table>
+            <% $found4.each do |card| %>
+              <tr>
+                <td>
+                    <%= image_tag(card.id+'.png', alt: card.id) %>
+                </td>
+            </tr>
+        <% end %>
+        </table>
+      </td>
     </tr>
-<% end %>
+  </tbody>
+</table>
 
-<h5>Foundation 1: <%= link_to 'Move', action: 'moveToF1' %></h5>
-<% $found1.each do |card| %>
-        <tr>
-            <td><%= card %></td>
-        </tr>
-<% end %>
-
-
-<h5>Foundation 2: <%= link_to 'Move', action: 'moveToF2' %></h5>
+<!--<h3>Foundation 2</h3>
+<table class="foundation">
+  <tr>-->
 <% $found2.each do |card| %>
-        <tr>
-            <td><%= card %></td>
-        </tr>
+<!--<td><%= image_tag(card.id+'.png', alt: '{card.id}', :class => "foundationStacks") %></td>-->
 <% end %>
+<!--</tr>
+</table>
 
-<h5>Foundation 3: <%= link_to 'Move', action: 'moveToF3' %></h5>
+<h3>Foundation 3</h3>
+<table class="foundation">
+  <tr>-->
 <% $found3.each do |card| %>
-        <tr>
-          <td><%= card %></td>
-        </tr>
+          <!--<td><%= image_tag(card.id+'.png', alt: '{card.id}', :style => "margin-left: -30px;") %></td>-->
 <% end %>
+<!--</tr>
+</table>
 
-<h5>Foundation 4: <%= link_to 'Move', action: 'moveToF4' %></h5>
+
+<h3>Foundation 4</h3>
+<table class="foundation">
+  <tr>
 <% $found4.each do |card| %>
-        <tr>
-            <td><%= card %></td>
-        </tr>
+      <td><%= image_tag(card.id+'.png', alt: '{card.id}', :class => "foundationStacks") %></td>
 <% end %>
+  </tr>
+</table>-->
+
+<br><br><br><br>
+<h3>Waste 1</h3>
+<table class="foundation">
+  <tr>
+    <% $waste1.each do |card| %>
+        <td><%= image_tag(card.id+'.png', alt: '{card.id}', :class => "cardStackHorizontal") %></td>
+    <% end %>
+  </tr>
+</table>
+<h3>Waste 2</h3>
+<table class="foundation">
+  <tr>
+    <% $waste2.each do |card| %>
+        <td><%= image_tag(card.id+'.png', alt: '{card.id}', :class => "cardStackHorizontal") %></td>
+    <% end %>
+  </tr>
+</table>
+
+<h3>Waste 3</h3>
+<table class="foundation">
+  <tr>
+    <% $waste3.each do |card| %>
+        <td><%= image_tag(card.id+'.png', alt: '{card.id}', :class => "cardStackHorizontal") %></td>
+    <% end %>
+  </tr>
+</table>
+
+<h3>Waste 4</h3>
+<table class="foundation">
+  <tr>
+    <% $waste4.each do |card| %>
+        <td><%= image_tag(card.id+'.png', alt: '{card.id}', :class => "cardStackHorizontal") %></td>
+    <% end %>
+  </tr>
+</table>
