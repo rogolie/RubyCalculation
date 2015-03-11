@@ -40,15 +40,11 @@ class Api::Waste1CardsController < ApplicationController
   def create
     @Waste1Card = Waste1Card.create(:card_id => params[:card_id], :value => params[:value], :suit => params[:suit])
 
-    respond_to do |format|
       if @Waste1Card.save
-        format.html {}
-        format.json { render :show, status: :created, location: @Deck_card }
+        render json: {}, status: :created
       else
-        format.html { render :new }
-        format.json { render json: @Deck_card.errors, status: :unprocessable_entity }
+        render json: @Deck_card.errors, status: :unprocessable_entity
       end
-    end
   end
 
   # PATCH/PUT /Waste1Cards/4
@@ -68,19 +64,14 @@ class Api::Waste1CardsController < ApplicationController
   # DELETE /Waste1Cards/4
   # DELETE /Waste1Cards/4.json
   def destroy
-    if(params[:card_id].blank?)
-      @Waste1Cards = Waste1Card.all
-      @Waste1Cards.destroy
-    else
+    if(params.has_key?(:card_id))
       @Waste1Card = Waste1Card.find_by_card_id(params[:card_id])
       @Waste1Card.destroy
+    else
+      Waste1Card.delete_all
     end
-    respond_to do |format|
-      format.html { redirect_to Waste1Cards_url, notice: 'Waste1Card was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    render json: {}, status: :no_content
   end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_Waste1Card

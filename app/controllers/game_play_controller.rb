@@ -20,12 +20,13 @@ class GamePlayController < ApplicationController
     $waste4 = []
     $fndSetup = []
 
-    $cards = APILogic.getAllCards("deck")
-    APILogic.moveTopCard("deck", "waste1")
     $firstLoad =0
   end
 
+
   def index
+    $cards = APILogic.getAllCards("deck")
+    APILogic.moveTopCard("deck", "waste1")
       findFoundationCards
   end
 
@@ -44,45 +45,59 @@ class GamePlayController < ApplicationController
     end
   end
 
+  def newGame()
+    APILogic.newGame()
+    redirect_to game_play_index_path
+  end
+
   def moveToF1
     moveMyCard($found1,1)
+    APILogic.moveTopCard("deck", "point1")
     redirect_to game_play_index_path
+
   end
 
   def moveToF2
     moveMyCard($found2,2)
+    APILogic.moveTopCard("deck", "point2")
     redirect_to game_play_index_path
   end
 
   def moveToF3
     moveMyCard($found3,3)
+    APILogic.moveTopCard("deck", "point3")
     redirect_to game_play_index_path
   end
 
   def moveToF4
+    APILogic.moveTopCard("deck", "point4")
     moveMyCard($found4,4)
     redirect_to game_play_index_path
   end
 
   def moveToW1
+    APILogic.moveTopCard("deck", "waste1")
     $waste1 << $cards.last
     $cards.pop
     redirect_to game_play_index_path
   end
 
   def moveToW2
+    APILogic.moveTopCard("deck", "waste2")
     $waste2 << $cards.last
     $cards.pop
     redirect_to game_play_index_path
   end
 
   def moveToW3
+    APILogic.moveTopCard("deck", "waste3")
     $waste3 << $cards.last
     $cards.pop
     redirect_to game_play_index_path
   end
 
   def moveToW4
+    APILogic.moveTopCard("deck", "waste4")
     $waste4 << $cards.last
     $cards.pop
     redirect_to game_play_index_path

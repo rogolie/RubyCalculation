@@ -41,15 +41,11 @@ class Api::Point3CardsController < ApplicationController
   def create
     @Point3Card = Point3Card.create(:card_id => params[:card_id], :value => params[:value], :suit => params[:suit])
 
-    respond_to do |format|
       if @Point3Card.save
-        format.html {}
-        format.json { render :show, status: :created, location: @Point3Card }
+        render json: {}, status: :created
       else
-        format.html { render :new }
-        format.json { render json: @Point3Card.errors, status: :unprocessable_entity }
+        render json: @Point3Card.errors, status: :unprocessable_entity
       end
-    end
   end
 
   # PATCH/PUT /Point3Cards/3
@@ -69,17 +65,13 @@ class Api::Point3CardsController < ApplicationController
   # DELETE /Point3Cards/3
   # DELETE /Point3Cards/3.json
   def destroy
-    if(params[:card_id].blank?)
-      @Point3Cards = Point3Card.all
-      @Point3Cards.destroy
-    else
+    if(params.has_key?(:card_id))
       @Point3Card = Point3Card.find_by_card_id(params[:card_id])
       @Point3Card.destroy
+    else
+      Point3Card.delete_all
     end
-    respond_to do |format|
-      format.html { redirect_to Point3Cards_url, notice: 'Point3Card was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    render json: {}, status: :no_content
   end
 
   private

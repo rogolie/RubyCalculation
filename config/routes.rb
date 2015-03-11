@@ -9,6 +9,7 @@ Rails.application.routes.draw do
   get 'game_play/moveToW2'
   get 'game_play/moveToW3'
   get 'game_play/moveToW4'
+  get 'game_play/newGame'
 
   root 'game_play#index'
   # The priority is based upon order of creation: first created -> highest priority.

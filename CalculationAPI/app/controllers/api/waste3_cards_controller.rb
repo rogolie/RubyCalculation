@@ -40,15 +40,11 @@ class Api::Waste3CardsController < ApplicationController
   def create
     @Waste3Card = Waste3Card.create(:card_id => params[:card_id], :value => params[:value], :suit => params[:suit])
 
-    respond_to do |format|
       if @Waste3Card.save
-        format.html {}
-        format.json { render :show, status: :created, location: @Waste3Card }
+        render json: {}, status: :created
       else
-        format.html { render :new }
-        format.json { render json: @Waste3Card.errors, status: :unprocessable_entity }
+        render json: @Waste3Card.errors, status: :unprocessable_entity
       end
-    end
   end
 
   # PATCH/PUT /Waste3Cards/4
@@ -68,17 +64,13 @@ class Api::Waste3CardsController < ApplicationController
   # DELETE /Waste3Cards/4
   # DELETE /Waste3Cards/4.json
   def destroy
-    if(params[:card_id].blank?)
-      @Waste3Cards = Waste3Card.all
-      @Waste3Cards.destroy
-    else
+    if(params.has_key?(:card_id))
       @Waste3Card = Waste3Card.find_by_card_id(params[:card_id])
       @Waste3Card.destroy
+    else
+      Waste3Card.delete_all
     end
-    respond_to do |format|
-      format.html { redirect_to Waste3Cards_url, notice: 'Waste3Card was successfully destroyed.' }
-      format.json { head :no_content }
-    end
+    render json: {}, status: :no_content
   end
 
   private

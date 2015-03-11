@@ -10,6 +10,9 @@
   <tr>
     Cards Left on Deck: <stron><%= $cards.count %></stron>
   </tr>
+  <tr>
+    <%= link_to 'New Game', {action: 'newGame'}, {:class => 'myButton'}%>
+  </tr>
 </table>
 
 <br>

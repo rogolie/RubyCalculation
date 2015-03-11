@@ -33,16 +33,11 @@ class Api::DeckCardsController < ApplicationController
   # POST /cards.json
   def create
     @Deck_card = DeckCard.create(:card_id => params[:card_id], :value => params[:value], :suit => params[:suit])
-
-    respond_to do |format|
       if @Deck_card.save
-        format.html {}
-        format.json { render :show, status: :created, location: @Deck_card }
+        render json: {}, status: :created
       else
-        format.html { render :new }
-        format.json { render json: @Deck_card.errors, status: :unprocessable_entity }
+        render json: @DeckCard.errors, status: :unprocessable_entity
       end
-    end
   end
 
   # PATCH/PUT /Deck_cards/1
@@ -62,17 +57,13 @@ class Api::DeckCardsController < ApplicationController
   # DELETE /Deck_cards/1
   # DELETE /Deck_cards/1.json
   def destroy
-    if(params[:card_id].blank?)
-      @Deck_cards = DeckCard.all
-      @Deck_cards.destroy
-    else
+    if(params.has_key?(:card_id))
       @Deck_card = DeckCard.find_by_card_id(params[:card_id])
       @Deck_card.destroy
+    else
+      DeckCard.delete_all
     end
-    respond_to do |format|
-      format.html {}
-      format.json { head :no_content }
-    end
+    render json: {}, status: :no_content
   end
 
   private
