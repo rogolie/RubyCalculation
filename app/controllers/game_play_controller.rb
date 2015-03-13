@@ -23,6 +23,7 @@ class GamePlayController < ApplicationController
     $firstLoad =0
   end
 
+  #$cards is the deck
 
   def index
     $cards = APILogic.getAllCards("deck")
