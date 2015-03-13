@@ -14,3 +14,36 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+
+
+
+$(function() {
+    $( ".card" ).draggable( { revert: "invalid" });
+    $( ".foundation" ).droppable({
+        hoverClass: "ui-state-hover",
+        drop: function( event, ui ) {
+            $( this )
+                .addClass( "ui-state-highlight" )
+                .find( "p" )
+                .html( "Dropped!" );
+            /*tell API I dropped on this pile*/
+        }
+    });
+
+    $( "#draggable2" ).draggable({ revert: "invalid" });
+    $( "#droppable2" ).droppable({
+        accept: "#draggable2",
+        activeClass: "ui-state-default",
+        drop: function( event, ui ) {
+            /*retrive and show next card from deck*/
+            $( this )
+                .addClass( "ui-state-highlight" )
+                .find( "p" )
+                .html( "Dropped!" );
+        }
+    });
+    $(".card").click(function(){
+        var cardVal = 2;
+
+    });
+});

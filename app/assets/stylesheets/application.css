@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+
+#deck{
+    width: 90px;
+    height: 100px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+    border:2px solid;
+
+}
+.card, {
+    width: 90px;
+    height: 90px;
+    padding: 0.5em;
+
+
+    border: 2px solid;
+}
+#droppable, #droppable2, .foundation {
+    width: 120px;
+    height: 120px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+    border: 1px solid;
+
+}
+h3 { clear: left; }
+
