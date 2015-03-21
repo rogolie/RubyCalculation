@@ -13,20 +13,23 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= 
+//=
 //= require_tree .
 
 
 
 $(function() {
+
+
+
     $( ".card" ).draggable( { revert: "invalid", snap: ".ui-widget-header", snapMode: "inner" });
     $( ".foundation" ).droppable({
         hoverClass: "ui-state-hover",
         drop: function( event, ui ) {
-            $( this )
-                .addClass( "ui-state-highlight" )
-                .find( "p" )
-                .html( "Dropped!" );
+            var id = $( this )
+                .attr("id");
+            $("#dropID").html(id);
+
             /*tell API I dropped on this pile*/
         }
     });
