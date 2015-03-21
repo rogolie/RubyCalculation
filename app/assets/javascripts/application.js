@@ -45,13 +45,13 @@ $(function() {
 
             $.ajax({
                 type: "POST",
-                url: "http://localhost:3000/api/logic",
-                data: {pile1: sid, pile2: id},
-                success: function(data){
-                    location.reload();
-                }
+                url: "http://localhost:8888/logic/move",
+                dataType:  "json",
+                data: {pile1: sid, pile2: id}
 
-            });
+            }).done(function(data){
+                location.reload();
+            }).fail(function(err){console.log(err)});
 
 
 

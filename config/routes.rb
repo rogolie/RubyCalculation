@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+
+
+  post 'logic/move' => 'logic#move'
   
   get 'game_play/index'
   get 'game_play/moveToF1'
