@@ -8,23 +8,23 @@ class GamePlayController < ApplicationController
 
 
   before_filter :setMyVars
-def setMyVars
+  def setMyVars
 
-   $firstLoad = 0
+     $firstLoad = 0
 
-    #$cards = [1,2,3,4,5,6,7,8,9,10,11,12]
-    $cards = []
-    $found1 = [ APILogic.getTopCard("point1")]
-    $found2 = [ APILogic.getTopCard("point2")]
-    $found3 = [ APILogic.getTopCard("point3")]
-    $found4 = [ APILogic.getTopCard("point4")]
-    $waste1 = []
-    $waste2 = []
-    $waste3 = []
-    $waste4 = []
-    #$fndSetup = []
-    $cards = APILogic.getAllCards("deck")
-   #findFoundationCards
+      #$cards = [1,2,3,4,5,6,7,8,9,10,11,12]
+      $cards = []
+      $found1 = [ APILogic.getTopCard("point1")]
+      $found2 = [ APILogic.getTopCard("point2")]
+      $found3 = [ APILogic.getTopCard("point3")]
+      $found4 = [ APILogic.getTopCard("point4")]
+      $waste1 = [ APILogic.getAllCards("waste1")]
+      $waste2 = [ APILogic.getAllCards("waste2")]
+      $waste3 = [ APILogic.getAllCards("waste3")]
+      $waste4 = [ APILogic.getAllCards("waste4")]
+      #$fndSetup = []
+      $cards = APILogic.getAllCards("deck")
+     #findFoundationCards
 
 
   end
