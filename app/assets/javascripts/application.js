@@ -20,6 +20,38 @@
 
 $(function() {
 
+    var check = function(ident, pile, pileVal, iter){
+        if ((pileVal + iter) > 13)
+            pileVal-=13;
+
+        if(ident === (pileVal + iter)){
+            pile.droppable("enable")
+
+        } else {
+            pile.droppable("disable")
+        }
+    }
+    $(".DECK > img").ready(function(){
+        var id  = $("#DECK > img").attr('alt');
+        id = id.slice(1);
+
+        var p1 = $("#point1 > img").attr('alt').slice(1);
+        var p2 = $("#point2 > img").attr('alt').slice(1);
+        var p3 = $("#point3 > img").attr('alt').slice(1);
+        var p4 = $("#point4 > img").attr('alt').slice(1);
+
+        check(parseInt(id), $("#point1"), parseInt(p1), 1);
+        check(parseInt(id), $("#point2"), parseInt(p2), 2);
+        check(parseInt(id), $("#point3"), parseInt(p3), 3);
+        check(parseInt(id), $("#point4"), parseInt(p4), 4);
+
+    });
+
+
+
+
+
+
 
 
     $( ".card" ).draggable( {
@@ -30,6 +62,9 @@ $(function() {
         stack: ".card",
         start: function( event, ui ) {
             $(this).data("sourceId", $(this).parent('div').attr('id') );
+
+
+
         }
 
     });
@@ -41,7 +76,7 @@ $(function() {
             var cid = ui.draggable.attr("alt");
             var sid = ui.draggable.data("sourceId");
 
-            $("#dropID").html(id + "  " + cid + " " + sid);
+            //$("#dropID").html(id + "  " + cid + " " + sid);
 
             $.ajax({
                 type: "POST",
@@ -57,8 +92,38 @@ $(function() {
 
             /*tell API I dropped on this pile*/
         }
+
+
     });
-    //
+    $( ".waste" ).droppable({
+        hoverClass: "ui-state-hover",
+        drop: function( event, ui ) {
+            var id = $( this )
+                .attr("id");
+            var cid = ui.draggable.attr("alt");
+            var sid = ui.draggable.data("sourceId");
+
+            //$("#dropID").html(id + "  " + cid + " " + sid);
+
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:8888/logic/move",
+                dataType:  "json",
+                data: {pile1: sid, pile2: id}
+
+            }).done(function(data){
+                location.reload();
+            }).fail(function(err){console.log(err)});
+
+
+
+            /*tell API I dropped on this pile*/
+        }
+
+
+    });
+
+
     //$( "#draggable2" ).draggable({ revert: "invalid" });
     //$( "#droppable2" ).droppable({
     //    accept: "#draggable2",
@@ -71,8 +136,5 @@ $(function() {
     //            .html( "Dropped!" );
     //    }
     //});
-    $(".card").click(function(){
 
-
-    });
 });
