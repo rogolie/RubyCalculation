@@ -14,15 +14,15 @@ def setMyVars
 
     #$cards = [1,2,3,4,5,6,7,8,9,10,11,12]
     $cards = []
-    $found1 = []
-    $found2 = []
-    $found3 = []
-    $found4 = []
+    $found1 = [ APILogic.getTopCard("point1")]
+    $found2 = [ APILogic.getTopCard("point2")]
+    $found3 = [ APILogic.getTopCard("point3")]
+    $found4 = [ APILogic.getTopCard("point4")]
     $waste1 = []
     $waste2 = []
     $waste3 = []
     $waste4 = []
-    $fndSetup = []
+    #$fndSetup = []
     $cards = APILogic.getAllCards("deck")
    #findFoundationCards
 
@@ -112,42 +112,42 @@ def setMyVars
     redirect_to game_play_index_path
   end
 
-  private
-    def findFoundationCards
-      if $firstLoad == 0
-        $foundem = []
-        $foundemall = 0
-        $cards.each { |card|
-          if $foundemall == 4
-            break
-          end
-          if card.value.to_i == 14 && $foundem[0] == nil
-            $found1 << card
-            $cards.delete(card)
-            $foundem[0] = card
-            $foundemall += 1
-          end
-          if card.value.to_i == 2 && $foundem[1] == nil
-            $found2 << card
-            $cards.delete(card)
-            $foundem[1] = card
-            $foundemall += 1
-          end
-          if card.value.to_i == 3 && $foundem[2] == nil
-            $found3 << card
-            $cards.delete(card)
-            $foundem[2] = card
-            $foundemall += 1
-          end
-          if card.value.to_i == 4 && $foundem[3] == nil
-            $found4 << card
-            $cards.delete(card)
-            $foundem[3] = card
-            $foundemall += 1
-          end
-        }
-      end
-      $firstLoad  = $firstLoad + 1
-    end
+  # private
+  #   def findFoundationCards
+  #     if $firstLoad == 0
+  #       $foundem = []
+  #       $foundemall = 0
+  #       $cards.each { |card|
+  #         if $foundemall == 4
+  #           break
+  #         end
+  #         if card.value.to_i == 14 && $foundem[0] == nil
+  #           $found1 << card
+  #           $cards.delete(card)
+  #           $foundem[0] = card
+  #           $foundemall += 1
+  #         end
+  #         if card.value.to_i == 2 && $foundem[1] == nil
+  #           $found2 << card
+  #           $cards.delete(card)
+  #           $foundem[1] = card
+  #           $foundemall += 1
+  #         end
+  #         if card.value.to_i == 3 && $foundem[2] == nil
+  #           $found3 << card
+  #           $cards.delete(card)
+  #           $foundem[2] = card
+  #           $foundemall += 1
+  #         end
+  #         if card.value.to_i == 4 && $foundem[3] == nil
+  #           $found4 << card
+  #           $cards.delete(card)
+  #           $foundem[3] = card
+  #           $foundemall += 1
+  #         end
+  #       }
+  #     end
+  #     $firstLoad  = $firstLoad + 1
+  #   end
 
 end
