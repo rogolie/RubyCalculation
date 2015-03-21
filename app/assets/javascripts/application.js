@@ -31,6 +31,7 @@ $(function() {
             pile.droppable("disable")
         }
     }
+    
     $(".DECK > img").ready(function(){
         var id  = $("#DECK > img").attr('alt');
         id = id.slice(1);
