@@ -22,13 +22,25 @@ $(function() {
 
 
 
-    $( ".card" ).draggable( { revert: "invalid", snap: ".ui-widget-header", snapMode: "inner" });
+    $( ".card" ).draggable( {
+        revert: "invalid",
+        snap: ".ui-widget-header",
+        snapMode: "inner",
+        snapTolerance: 30,
+        drag: function( event, ui ) {
+            $(this).data("sourceId", $(this).parent(".stack").attr('id') );
+        }
+
+    });
     $( ".foundation" ).droppable({
         hoverClass: "ui-state-hover",
         drop: function( event, ui ) {
             var id = $( this )
                 .attr("id");
-            $("#dropID").html(id);
+            var cid = ui.draggable.attr("alt");
+            var sid = ui.draggable.data("sourceId");
+
+            $("#dropID").html(id + "  " + cid + " " + sid)
 
             /*tell API I dropped on this pile*/
         }
