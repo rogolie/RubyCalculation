@@ -27,8 +27,9 @@ $(function() {
         snap: ".ui-widget-header",
         snapMode: "inner",
         snapTolerance: 30,
-        drag: function( event, ui ) {
-            $(this).data("sourceId", $(this).parent(".stack").attr('id') );
+        stack: ".card",
+        start: function( event, ui ) {
+            $(this).data("sourceId", $(this).parent('div').attr('id') );
         }
 
     });
@@ -40,26 +41,38 @@ $(function() {
             var cid = ui.draggable.attr("alt");
             var sid = ui.draggable.data("sourceId");
 
-            $("#dropID").html(id + "  " + cid + " " + sid)
+            $("#dropID").html(id + "  " + cid + " " + sid);
+
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:3000/api/logic",
+                data: {pile1: sid, pile2: id},
+                success: function(data){
+                    location.reload();
+                }
+
+            });
+
+
 
             /*tell API I dropped on this pile*/
         }
     });
-
-    $( "#draggable2" ).draggable({ revert: "invalid" });
-    $( "#droppable2" ).droppable({
-        accept: "#draggable2",
-        activeClass: "ui-state-default",
-        drop: function( event, ui ) {
-            /*retrive and show next card from deck*/
-            $( this )
-                .addClass( "ui-state-highlight" )
-                .find( "p" )
-                .html( "Dropped!" );
-        }
-    });
+    //
+    //$( "#draggable2" ).draggable({ revert: "invalid" });
+    //$( "#droppable2" ).droppable({
+    //    accept: "#draggable2",
+    //    activeClass: "ui-state-default",
+    //    drop: function( event, ui ) {
+    //        /*retrive and show next card from deck*/
+    //        $( this )
+    //            .addClass( "ui-state-highlight" )
+    //            .find( "p" )
+    //            .html( "Dropped!" );
+    //    }
+    //});
     $(".card").click(function(){
-        var cardVal = 2;
+
 
     });
 });
