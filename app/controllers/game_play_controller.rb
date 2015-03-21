@@ -23,8 +23,8 @@ def setMyVars
     $waste3 = []
     $waste4 = []
     $fndSetup = []
-   $cards = APILogic.getAllCards("deck")
-   findFoundationCards
+    $cards = APILogic.getAllCards("deck")
+   #findFoundationCards
 
 
   end
