@@ -13,12 +13,13 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= 
 //= require_tree .
 
 
 
 $(function() {
-    $( ".card" ).draggable( { revert: "invalid" });
+    $( ".card" ).draggable( { revert: "invalid", snap: ".ui-widget-header", snapMode: "inner" });
     $( ".foundation" ).droppable({
         hoverClass: "ui-state-hover",
         drop: function( event, ui ) {

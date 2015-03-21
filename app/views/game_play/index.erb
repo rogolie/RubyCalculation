@@ -4,8 +4,8 @@
 <h3>Feedback on hover:</h3>
 
 <div id="deck" >
-  <div id="c2" class="ui-widget-content card">
-    <p>Drag me to my target</p>
+  <div id="c2" class="ui-widget-content">
+    <%= image_tag($cards.last.id+'.png', alt: '{card.id}', :class => 'card' ) %>
   </div>
 </div>
 
@@ -23,16 +23,9 @@
 </div>
 <h3>Feedback on activating draggable:</h3>
 
-<div id="draggable2" class="ui-widget-content">
-  <p>Drag me to my target</p>
-</div>
-
-<div id="droppable2" class="ui-widget-header">
-  <p>Drop here</p>
-</div>
 
 
-<!--<h4>Test Deck</h4>
+<h4>Test Deck</h4>
 <table>
   <tr>
     <% $cards.each do |card| %>
@@ -56,8 +49,8 @@
   </thead>
   <tbody>
       <tr>
-        <td><%= image_tag($cards.last.id+'.png', alt: '{card.id}') %></td>
-        <td style="padding-left: 30px;">
+        <td><%= image_tag($cards.last.id+'.png', alt: '{card.id}', :class => 'card' ) %></td>
+        <!--<td style="padding-left: 30px;">
             <table>
               <tr><td><%= link_to 'Foundation 1', {action: 'moveToF1'}, {:class => "myButton"} %></td></tr>
               <tr><td><%= link_to 'Foundation 2', {action: 'moveToF2'}, {:class => 'myButton'} %></td></tr>
@@ -73,7 +66,7 @@
                 <tr><td><%= link_to 'Waste 4', {action: 'moveToW4'}, {:class => 'myButton'} %></td></tr>
             </table>
         </td>
-        </td>
+        </td>-->
       </tr>
   </tbody>
 </table>

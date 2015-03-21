@@ -6,7 +6,7 @@ class GamePlayController < ApplicationController
   # In order NOT to reset the game on a manual page refresh, I'm checking this variable.
   # The variable is set in the findFoundationCards method
 
-  if $firstLoad == 0
+  if $firstLoad = 0
     helper_method :moveToF2
     #$cards = [1,2,3,4,5,6,7,8,9,10,11,12]
     $cards = []
@@ -20,7 +20,7 @@ class GamePlayController < ApplicationController
     $waste4 = []
     $fndSetup = []
 
-    $firstLoad =0
+    $firstLoad = 0
   end
 
   #$cards is the deck
@@ -28,7 +28,9 @@ class GamePlayController < ApplicationController
   def index
     $cards = APILogic.getAllCards("deck")
     APILogic.moveTopCard("deck", "waste1")
+    
       findFoundationCards
+
   end
 
   def moveMyCard(foundStack,stackStep)
@@ -139,7 +141,7 @@ class GamePlayController < ApplicationController
           end
         }
       end
-      $firstLoad += 1
+      $firstLoad  = $firstLoad + 1
     end
 
 end
