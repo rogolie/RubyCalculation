@@ -12,4 +12,9 @@ class LogicController < ApplicationController
     render json: {}, status: :ok
   end
 
+  def new_game
+    APILogic.newGame
+    render json: {}, status: :ok
+  end
+
 end

@@ -2,7 +2,7 @@ Rails.application.routes.draw do
 
 
   post 'logic/move' => 'logic#move'
-  
+  post 'logic/new' => 'logic#new_game'
   get 'game_play/index'
   get 'game_play/moveToF1'
   get 'game_play/moveToF2'
