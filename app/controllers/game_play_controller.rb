@@ -18,10 +18,10 @@ class GamePlayController < ApplicationController
       $found2 = [ APILogic.getTopCard("point2")]
       $found3 = [ APILogic.getTopCard("point3")]
       $found4 = [ APILogic.getTopCard("point4")]
-      $waste1 = [ APILogic.getAllCards("waste1")]
-      $waste2 = [ APILogic.getAllCards("waste2")]
-      $waste3 = [ APILogic.getAllCards("waste3")]
-      $waste4 = [ APILogic.getAllCards("waste4")]
+      $waste1 =  APILogic.getAllCards("waste1")
+      $waste2 =  APILogic.getAllCards("waste2")
+      $waste3 =  APILogic.getAllCards("waste3")
+      $waste4 =  APILogic.getAllCards("waste4")
       #$fndSetup = []
       $cards = APILogic.getAllCards("deck")
      #findFoundationCards

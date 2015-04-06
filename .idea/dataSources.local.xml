@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="Rails RubyCalculation: development" uuid="1ea39994-cf3b-4829-b228-6fc1c4f271da">
-      <first-sync>true</first-sync>
-    </data-source>
+    <data-source name="Rails RubyCalculation: development" uuid="1ea39994-cf3b-4829-b228-6fc1c4f271da" />
   </component>
 </project>

@@ -96,7 +96,7 @@ $(function() {
 
 
     });
-    $( ".waste" ).droppable({
+    $( ".waste > ul > li:last-child").droppable({
         hoverClass: "ui-state-hover",
         drop: function( event, ui ) {
             var id = $( this )

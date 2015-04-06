@@ -44,3 +44,17 @@
 }
 h3 { clear: left; }
 
+ul{
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li:not(:first-child) {
+    margin-top: -55px;
+}
+
+li{
+
+}
+

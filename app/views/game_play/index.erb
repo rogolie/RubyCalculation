@@ -25,7 +25,9 @@
       <h3>Deck</h3>
     <div id="deck" >
       <div id="DECK" class="ui-widget-content stack">
-        <%= image_tag($cards.last.id+'.png', alt: $cards.last.id, :class => 'card' ) %>
+        <% if $cards.last %>
+            <%= image_tag($cards.last.id+'.png', alt: $cards.last.id, :class => 'card' ) %>
+        <% end %>
       </div>
     </div>
 </div>
@@ -51,15 +53,56 @@
     <div class="col-lg-offset-2 col-lg-8">
       <h3>Waste Piles</h3>
       <div id="waste1" class="ui-widget-header waste stack">
+        <ul>
+          <% if $waste1.last %>
+
+              <% $waste1.each do |card|%>
+
+                <li>  <%= image_tag(card.id+'.png', alt: card.id,  ) %> </li>
+
+              <% end %>
+        <% end %>
+        </ul>
 
       </div>
       <div id="waste2" class="ui-widget-header waste stack">
+        <ul>
+          <% if $waste2.last %>
+              <% $waste2.each do |card|%>
+
+                  <li>  <%= image_tag(card.id+'.png', alt: card.id,  ) %> </li>
+
+              <% end %>
+
+          <% end %>
+        </ul>
 
       </div>
       <div id="waste3" class="ui-widget-header waste stack">
+        <ul>
+          <% if $waste3.last %>
+              <% $waste3.each do |card|%>
+
+                  <li>  <%= image_tag(card.id+'.png', alt: card.id,  ) %> </li>
+
+              <% end %>
+
+
+          <% end %>
+        </ul>
 
       </div>
       <div id="waste4" class="ui-widget-header waste stack">
+        <ul>
+          <% if $waste4.last %>
+              <% $waste4.each do |card|%>
+
+                  <li>  <%= image_tag(card.id+'.png', alt: card.id,  ) %> </li>
+
+              <% end %>
+
+          <% end %>
+        </ul>
       </div>
     </div>
   </div>
