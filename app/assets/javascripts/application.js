@@ -96,11 +96,57 @@ $(function() {
 
 
     });
+    $( ".waste > ul > li:last-child img").draggable({
+        revert: "invalid",
+        snap: ".ui-widget-header",
+        snapMode: "inner",
+        snapTolerance: 30,
+        stack: ".card",
+        start: function (event, ui) {
+            $(this).data("sourceId", $(this).parent('div').attr('id'));
+
+
+        }
+    });
+    $(".waste").droppable({
+        hoverClass: "ui-state-hover",
+        drop: function( event, ui ) {
+
+            var id = $( this)
+                .attr("id");
+            console.log(id+ "dropp");
+            var cid = ui.draggable.attr("alt");
+            var sid = ui.draggable.data("sourceId");
+
+            //$("#dropID").html(id + "  " + cid + " " + sid);
+
+            $.ajax({
+                type: "POST",
+                url: "http://localhost:8888/logic/move",
+                dataType:  "json",
+                data: {pile1: sid, pile2: id}
+
+            }).done(function(data){
+                location.reload();
+            }).fail(function(err){console.log(err)});
+
+
+
+            /*tell API I dropped on this pile*/
+        }
+
+
+    });
+    if( $(".waste > ul").children().length < 1){
+        $(".waste").droppable({disabled: true });
+    }
     $( ".waste > ul > li:last-child").droppable({
         hoverClass: "ui-state-hover",
         drop: function( event, ui ) {
-            var id = $( this )
+
+            var id = $( this).closest(".waste")
                 .attr("id");
+            console.log(id+ "dropp");
             var cid = ui.draggable.attr("alt");
             var sid = ui.draggable.data("sourceId");
 
