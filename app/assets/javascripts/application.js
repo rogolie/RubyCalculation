@@ -106,13 +106,36 @@ $(function() {
         stack: ".card",
         drag: function(){
 
-            if($(this).closest('div').hasClass("waste")){
-                $( ".waste > ul > li:last-child").droppable("disable");
-                $(".waste").droppable("disable");
-            }else{
-
-                $( ".waste > ul > li:last-child").droppable("enable");
-            }
+            //if($(this).closest('div').hasClass("waste")){
+            //    $( ".waste > ul > li:last-child").droppable("disable");
+            //    $("#waste1").droppable("disable");
+            //    $("#waste2").droppable("disable");
+            //    $("#waste3").droppable("disable");
+            //    $("#waste4").droppable("disable");
+            //}else{
+            //
+            //    if( $("#waste1 > ul").children("li").length >= 1) {
+            //        $("#waste1").droppable("disable");
+            //
+            //    }else{
+            //        $("#waste1").droppable("enable");
+            //    }
+            //    if( $("#waste2 > ul").children("li").length >= 1){
+            //        $("#waste2").droppable("disable");
+            //    }else{
+            //        $("#waste1").droppable("enable");
+            //    }
+            //    if( $("#waste3 > ul").children("li").length >= 1){
+            //        $("#waste3").droppable("disable");
+            //    }else{
+            //        $("#waste1").droppable("enable");
+            //    }
+            //    if( $("#waste4 > ul").children("li").length >= 1){
+            //        $("#waste4").droppable("disable");
+            //    }else{
+            //        $("#waste1").droppable("enable");
+            //    }
+            //}
             var id  = $(this).attr('alt');
             id = id.slice(1);
 
@@ -161,18 +184,18 @@ $(function() {
 
 
     });
-    $( ".waste > ul > li:last-child img").draggable({
-        revert: "invalid",
-        snap: ".ui-widget-header",
-        snapMode: "inner",
-        snapTolerance: 30,
-        stack: ".card",
-        start: function (event, ui) {
-            $(this).data("sourceId", $(this).closest('div').attr('id'));
-
-
-        }
-    });
+    //$( ".waste > ul > li:last-child img").draggable({
+    //    revert: "invalid",
+    //    snap: ".ui-widget-header",
+    //    snapMode: "inner",
+    //    snapTolerance: 30,
+    //    stack: ".card",
+    //    start: function (event, ui) {
+    //        $(this).data("sourceId", $(this).closest('div').attr('id'));
+    //
+    //
+    //    }
+   // });
     $("#waste1, #waste2, #waste3, #waste4").droppable({
         hoverClass: "ui-state-hover",
         drop: function( event, ui ) {
@@ -224,7 +247,7 @@ $(function() {
             }).done(function(data){
                 location.reload();
             }).fail(function(err){console.log(err)});
-            
+
             /*tell API I dropped on this pile*/
         }
 
@@ -248,17 +271,17 @@ $(function() {
         if( $("#waste2 > ul").children("li").length >= 1){
             $("#waste2").droppable("disable");
         }else{
-            $("#waste1").droppable("enable");
+            $("#waste2").droppable("enable");
         }
         if( $("#waste3 > ul").children("li").length >= 1){
             $("#waste3").droppable("disable");
         }else{
-            $("#waste1").droppable("enable");
+            $("#waste3").droppable("enable");
         }
         if( $("#waste4 > ul").children("li").length >= 1){
             $("#waste4").droppable("disable");
         }else{
-            $("#waste1").droppable("enable");
+            $("#waste4").droppable("enable");
         }
 
         var p1 = parseInt($("#point1 > img").attr('alt').slice(1));
