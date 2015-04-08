@@ -224,9 +224,7 @@ $(function() {
             }).done(function(data){
                 location.reload();
             }).fail(function(err){console.log(err)});
-
-
-
+            
             /*tell API I dropped on this pile*/
         }
 
