@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
   namespace :api, defaults: {format: 'json'} do
+    #Logic
+      post 'logic' => 'logic#move'
+
     #Deck
       get 'deck_cards/top' => 'deck_cards#top'
       delete 'deck_cards/:card_id' => 'deck_cards#destroy'

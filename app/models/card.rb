@@ -5,5 +5,6 @@ class Card
       @value = value
       @suit = suit
     end
+
     def to_s; id.to_s; suit.to_s; end
 end

@@ -16,9 +16,10 @@
 
 
 #deck{
-    width: 90px;
-    height: 100px;
-    padding: 0.5em;
+    width: 72px;
+    height: 96px;
+    padding-left: 2px;
+    padding-top: 2px;
     float: left;
     margin: 10px 10px 10px 0;
     border:2px solid;
@@ -32,14 +33,32 @@
 
     border: 2px solid;
 }
-#droppable, #droppable2, .foundation {
-    width: 120px;
-    height: 120px;
-    padding: 0.5em;
+#droppable, #droppable2, .foundation, .waste {
+    width: 72px;
+    height: 96px;
+
     float: left;
-    margin: 10px;
+    margin: 30px;
     border: 1px solid;
 
 }
 h3 { clear: left; }
+
+ul{
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+li:not(:first-child) {
+    margin-top: -55px;
+}
+
+li{
+
+}
+.bodyBG{
+    color:white !important;
+    background-image: url(http://www.brownandseelye.com/wp-content/themes/politicize/framework/images/pattern/pattern-10.png);
+}
 

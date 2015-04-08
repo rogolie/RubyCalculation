@@ -6,28 +6,37 @@ class GamePlayController < ApplicationController
   # In order NOT to reset the game on a manual page refresh, I'm checking this variable.
   # The variable is set in the findFoundationCards method
 
-  if $firstLoad == 0
-    helper_method :moveToF2
-    #$cards = [1,2,3,4,5,6,7,8,9,10,11,12]
-    $cards = []
-    $found1 = []
-    $found2 = []
-    $found3 = []
-    $found4 = []
-    $waste1 = []
-    $waste2 = []
-    $waste3 = []
-    $waste4 = []
-    $fndSetup = []
 
-    $firstLoad =0
+  before_filter :setMyVars
+  def setMyVars
+
+     $firstLoad = 0
+
+      #$cards = [1,2,3,4,5,6,7,8,9,10,11,12]
+      $cards = []
+      $found1 = [ APILogic.getTopCard("point1")]
+      $found2 = [ APILogic.getTopCard("point2")]
+      $found3 = [ APILogic.getTopCard("point3")]
+      $found4 = [ APILogic.getTopCard("point4")]
+      $waste1 =  APILogic.getAllCards("waste1")
+      $waste2 =  APILogic.getAllCards("waste2")
+      $waste3 =  APILogic.getAllCards("waste3")
+      $waste4 =  APILogic.getAllCards("waste4")
+      #$fndSetup = []
+      $cards = APILogic.getAllCards("deck")
+     #findFoundationCards
+
+
   end
 
+  #$cards is the deck
 
   def index
-    $cards = APILogic.getAllCards("deck")
-    APILogic.moveTopCard("deck", "waste1")
-      findFoundationCards
+    #$cards = APILogic.getAllCards("deck")
+    #APILogic.moveTopCard("deck", "waste1")
+    
+      #findFoundationCards
+
   end
 
   def moveMyCard(foundStack,stackStep)
@@ -103,42 +112,42 @@ class GamePlayController < ApplicationController
     redirect_to game_play_index_path
   end
 
-  private
-    def findFoundationCards
-      if $firstLoad == 0
-        $foundem = []
-        $foundemall = 0
-        $cards.each { |card|
-          if $foundemall == 4
-            break
-          end
-          if card.value.to_i == 14 && $foundem[0] == nil
-            $found1 << card
-            $cards.delete(card)
-            $foundem[0] = card
-            $foundemall += 1
-          end
-          if card.value.to_i == 2 && $foundem[1] == nil
-            $found2 << card
-            $cards.delete(card)
-            $foundem[1] = card
-            $foundemall += 1
-          end
-          if card.value.to_i == 3 && $foundem[2] == nil
-            $found3 << card
-            $cards.delete(card)
-            $foundem[2] = card
-            $foundemall += 1
-          end
-          if card.value.to_i == 4 && $foundem[3] == nil
-            $found4 << card
-            $cards.delete(card)
-            $foundem[3] = card
-            $foundemall += 1
-          end
-        }
-      end
-      $firstLoad += 1
-    end
+  # private
+  #   def findFoundationCards
+  #     if $firstLoad == 0
+  #       $foundem = []
+  #       $foundemall = 0
+  #       $cards.each { |card|
+  #         if $foundemall == 4
+  #           break
+  #         end
+  #         if card.value.to_i == 14 && $foundem[0] == nil
+  #           $found1 << card
+  #           $cards.delete(card)
+  #           $foundem[0] = card
+  #           $foundemall += 1
+  #         end
+  #         if card.value.to_i == 2 && $foundem[1] == nil
+  #           $found2 << card
+  #           $cards.delete(card)
+  #           $foundem[1] = card
+  #           $foundemall += 1
+  #         end
+  #         if card.value.to_i == 3 && $foundem[2] == nil
+  #           $found3 << card
+  #           $cards.delete(card)
+  #           $foundem[2] = card
+  #           $foundemall += 1
+  #         end
+  #         if card.value.to_i == 4 && $foundem[3] == nil
+  #           $found4 << card
+  #           $cards.delete(card)
+  #           $foundem[3] = card
+  #           $foundemall += 1
+  #         end
+  #       }
+  #     end
+  #     $firstLoad  = $firstLoad + 1
+  #   end
 
 end

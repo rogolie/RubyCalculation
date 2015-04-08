@@ -69,8 +69,9 @@ class APILogic
   def self.getTopCard(pile)
 
     @response = HTTParty.get("#@API_URL/#{pile}_cards/top")
-    @hash = JSON.parse(@response.body)
-    topCard = Card.new(@hash["card_id"], @hash["value"], @hash["suit"])
+
+      @hash = JSON.parse(@response.body)
+     topCard = Card.new(@hash["card_id"], @hash["value"], @hash["suit"])
   
   end
   
