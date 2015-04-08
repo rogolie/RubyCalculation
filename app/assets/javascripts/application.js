@@ -148,9 +148,21 @@ $(function() {
             check(parseInt(id), $("#point2"), parseInt(p2), 2);
             check(parseInt(id), $("#point3"), parseInt(p3), 3);
             check(parseInt(id), $("#point4"), parseInt(p4), 4);
+
+            if($(this).closest('div').attr('id') === "DECK"){
+                $(this).data("sourceId", $(this).parent('div').attr('id') );
+            }else{
+                $(this).data("sourceId", $(this).closest('div').attr('id'));
+            }
         },
         start: function( event, ui ) {
-            $(this).data("sourceId", $(this).parent('div').attr('id') );
+            //if($(this).closest('div').attr('id') === "DECK"){
+            //    $(this).data("sourceId", $(this).parent('div').attr('id') );
+            //}else{
+            //    $(this).data("sourceId", $(this).closest('div').attr('id'));
+            //}
+
+
 
 
 
@@ -184,18 +196,18 @@ $(function() {
 
 
     });
-    //$( ".waste > ul > li:last-child img").draggable({
-    //    revert: "invalid",
-    //    snap: ".ui-widget-header",
-    //    snapMode: "inner",
-    //    snapTolerance: 30,
-    //    stack: ".card",
-    //    start: function (event, ui) {
-    //        $(this).data("sourceId", $(this).closest('div').attr('id'));
-    //
-    //
-    //    }
-   // });
+    $( ".waste > ul > li:last-child img").draggable({
+        revert: "invalid",
+        snap: ".ui-widget-header",
+        snapMode: "inner",
+        snapTolerance: 30,
+        stack: ".card",
+        start: function (event, ui) {
+            $(this).data("sourceId", $(this).closest('div').attr('id'));
+
+
+        }
+   });
     $("#waste1, #waste2, #waste3, #waste4").droppable({
         hoverClass: "ui-state-hover",
         drop: function( event, ui ) {
