@@ -13,6 +13,7 @@ class APILogic
     HTTParty.delete("#@API_URL/waste2_cards")
     HTTParty.delete("#@API_URL/waste3_cards")
     HTTParty.delete("#@API_URL/waste4_cards")
+    HTTParty.delete("#@API_URL/moves")
 
     suits = %w{s c h d}
     ranks = %w{1 2 3 4 5 6 7 8 9 10 11 12 13}
@@ -67,13 +68,18 @@ class APILogic
   #Retrieves Top Card of a pile
   #Returns Card topCard
   def self.getTopCard(pile)
-
     @response = HTTParty.get("#@API_URL/#{pile}_cards/top")
 
-      @hash = JSON.parse(@response.body)
-     topCard = Card.new(@hash["card_id"], @hash["value"], @hash["suit"])
-  
+    @hash = @response.body
+    unless @hash == "null"
+      @jsonHash = JSON.parse(@hash)
+      topCard = Card.new(@jsonHash["card_id"], @jsonHash["value"], @jsonHash["suit"])
+      return topCard
+    else
+      return nil
+    end
   end
+
   
   #Retrieves All Cards of a pile
   #Returns Card[] cards
@@ -90,8 +96,8 @@ class APILogic
     cards
   end
   
-  def self.moveTopCard(pile1, pile2)
-
+  def self.moveTopCard(pile1, pile2, recordMove)
+    
     ##First Retrieve Card from pile1
     @response = HTTParty.get("#@API_URL/#{pile1}_cards/top")
     @hash = JSON.parse(@response.body)
@@ -107,5 +113,37 @@ class APILogic
                :suit => topCard.suit
              }.to_json,
     :headers => { 'Content-Type' => 'application/json' })
+    
+    ##Record Move
+    if(recordMove)
+      self.recordMove(pile1, pile2)
+    end
   end
+  
+  ##Moves Logic
+  
+  def self.getLastMove()
+    @response = HTTParty.get("#@API_URL/moves/last")
+    @hash = @response.body
+    unless @hash == "null"
+      @jsonHash = JSON.parse(@hash)
+      @move = Move.new(@jsonHash["source"], @jsonHash["destination"])
+      return @move
+    else
+      return nil
+    end
+  end
+  
+  def self.recordMove(source, destination)
+    HTTParty.post("#@API_URL/moves",
+      :body => { :source => source,
+                 :destination => destination
+              }.to_json,
+      :headers => { 'Content-Type' => 'application/json' })
+  end
+ 
+  def self.deleteLastMove()
+    HTTParty.delete("#@API_URL/moves/last")
+  end
+  
 end

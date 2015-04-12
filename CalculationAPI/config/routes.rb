@@ -42,7 +42,12 @@ Rails.application.routes.draw do
       delete 'waste4_cards/:card_id' => 'waste4_cards#destroy'
       delete 'waste4_cards' => 'waste4_cards#destroy'
       
-    resources :deck_cards, :point1_cards, :point2_cards, :point3_cards, :point4_cards, :waste1_cards, :waste2_cards, :waste3_cards, :waste4_cards
+      #Moves
+      get 'moves/last' => 'moves#last'
+      delete 'moves' => 'moves#destroy'
+      delete 'moves/last' => 'moves#destroyLast'
+      
+    resources :deck_cards, :point1_cards, :point2_cards, :point3_cards, :point4_cards, :waste1_cards, :waste2_cards, :waste3_cards, :waste4_cards, :moves
 
   end
   

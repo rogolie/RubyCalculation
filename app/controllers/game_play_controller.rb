@@ -61,52 +61,52 @@ class GamePlayController < ApplicationController
 
   def moveToF1
     moveMyCard($found1,1)
-    APILogic.moveTopCard("deck", "point1")
+    APILogic.moveTopCard("deck", "point1",true)
     redirect_to game_play_index_path
 
   end
 
   def moveToF2
     moveMyCard($found2,2)
-    APILogic.moveTopCard("deck", "point2")
+    APILogic.moveTopCard("deck", "point2",true)
     redirect_to game_play_index_path
   end
 
   def moveToF3
     moveMyCard($found3,3)
-    APILogic.moveTopCard("deck", "point3")
+    APILogic.moveTopCard("deck", "point3",true)
     redirect_to game_play_index_path
   end
 
   def moveToF4
-    APILogic.moveTopCard("deck", "point4")
+    APILogic.moveTopCard("deck", "point4",true)
     moveMyCard($found4,4)
     redirect_to game_play_index_path
   end
 
   def moveToW1
-    APILogic.moveTopCard("deck", "waste1")
+    APILogic.moveTopCard("deck", "waste1",true)
     $waste1 << $cards.last
     $cards.pop
     redirect_to game_play_index_path
   end
 
   def moveToW2
-    APILogic.moveTopCard("deck", "waste2")
+    APILogic.moveTopCard("deck", "waste2",true)
     $waste2 << $cards.last
     $cards.pop
     redirect_to game_play_index_path
   end
 
   def moveToW3
-    APILogic.moveTopCard("deck", "waste3")
+    APILogic.moveTopCard("deck", "waste3",true)
     $waste3 << $cards.last
     $cards.pop
     redirect_to game_play_index_path
   end
 
   def moveToW4
-    APILogic.moveTopCard("deck", "waste4")
+    APILogic.moveTopCard("deck", "waste4",true)
     $waste4 << $cards.last
     $cards.pop
     redirect_to game_play_index_path

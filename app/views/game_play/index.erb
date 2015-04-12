@@ -14,7 +14,9 @@
 <div style=" height:50px;"></div>
 
 <h1>Calculation</h1>
-  <%= link_to 'New Game', {action: 'newGame'}, {:class => 'btn-lg'}%>
+  <button class="newGame">New Game</button>
+  <button class="undo">Undo</button>
+  <button class="debugButton">Debug</button>
 
 
 
@@ -109,24 +111,21 @@
 
 
 
-
-<h4>Test Deck</h4>
-<table>
-  <tr>
-    <% $cards.each do |card| %>
+<div class="debug">
+	<h4>Test Deck</h4>
+	<table>
+  	<tr>
+    	<% $cards.each do |card| %>
           <td><%=card.id %></td>
-    <% end %>
-  </tr>
-  <tr>
-    Cards Left on Deck: <stron><%= $cards.count %></stron>
-  </tr>
-  <tr>
+    	<% end %>
+  	</tr>
+  	<tr>
+    	Cards Left on Deck: <stron><%= $cards.count %></stron>
+  	</tr>
+  	<tr>
 
-  </tr>
-</table>
+  	</tr>
+	</table>
+</div>
 
-
-
-
-   -->
     </div>

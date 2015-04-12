@@ -62,3 +62,11 @@ li{
     background-image: url(http://www.brownandseelye.com/wp-content/themes/politicize/framework/images/pattern/pattern-10.png);
 }
 
+button{
+	background: linear-gradient(#485563,#29323c);
+	outline: none;
+}
+
+.debug{
+	display: none;
+}

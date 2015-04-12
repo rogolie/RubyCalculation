@@ -12,16 +12,11 @@ class Api::Point4CardsController < ApplicationController
       render json:@cards
     end
   end
-
+  
   def top
     @card = Point4Card.last
     render json: @card
   end
-  
-  def show
-    
-  end
-
 
   # GET /cards/new
   def new
@@ -32,6 +27,10 @@ class Api::Point4CardsController < ApplicationController
     @card = Point4Card.last
     render json: @card
   end
+
+  def show
+  end
+
   # GET /cards/4/edit
   def edit
   end
@@ -67,6 +66,9 @@ class Api::Point4CardsController < ApplicationController
   def destroy
     if(params.has_key?(:card_id))
       @Point4Card = Point4Card.find_by_card_id(params[:card_id])
+      @Point4Card.destroy
+    elsif(params.has_key?(:id))
+      @Point4Card = Point4Card.find_by_card_id(params[:id])
       @Point4Card.destroy
     else
       Point4Card.delete_all

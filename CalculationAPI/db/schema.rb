@@ -14,57 +14,61 @@
 ActiveRecord::Schema.define(version: 20150305011815) do
 
   create_table "deck_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "point1_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "point2_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "point3_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "point4_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "waste1_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "waste2_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "waste3_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
 
   create_table "waste4_cards", force: true do |t|
-    t.string  "card_id"
+    t.string "card_id"
     t.string "value"
     t.string "suit"
   end
-
+  
+  create_table "moves", force: true do |t|
+    t.string "source"
+    t.string "destination"
+  end
 end

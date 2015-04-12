@@ -63,9 +63,12 @@ class Api::Point1CardsController < ApplicationController
 
   # DELETE /Point1Cards/1
   # DELETE /Point1Cards/1.json
-  def destroy
+   def destroy
     if(params.has_key?(:card_id))
       @Point1Card = Point1Card.find_by_card_id(params[:card_id])
+      @Point1Card.destroy
+    elsif(params.has_key?(:id))
+      @Point1Card = Point1Card.find_by_card_id(params[:id])
       @Point1Card.destroy
     else
       Point1Card.delete_all

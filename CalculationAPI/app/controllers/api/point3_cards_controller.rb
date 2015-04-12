@@ -12,16 +12,11 @@ class Api::Point3CardsController < ApplicationController
       render json:@cards
     end
   end
-
+  
   def top
     @card = Point3Card.last
     render json: @card
   end
-  
-  def show
-    
-  end
-
 
   # GET /cards/new
   def new
@@ -32,6 +27,10 @@ class Api::Point3CardsController < ApplicationController
     @card = Point3Card.last
     render json: @card
   end
+
+  def show
+  end
+
   # GET /cards/3/edit
   def edit
   end
@@ -67,6 +66,9 @@ class Api::Point3CardsController < ApplicationController
   def destroy
     if(params.has_key?(:card_id))
       @Point3Card = Point3Card.find_by_card_id(params[:card_id])
+      @Point3Card.destroy
+    elsif(params.has_key?(:id))
+      @Point3Card = Point3Card.find_by_card_id(params[:id])
       @Point3Card.destroy
     else
       Point3Card.delete_all

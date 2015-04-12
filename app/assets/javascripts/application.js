@@ -19,7 +19,7 @@
 
 
 $(function() {
-
+	var debug = false;
     var checkValidMoves = function(p1,p2,p3,p4){
         var validMove = false;
         validMove = checkPointPiles("DECK", p1,p2,p3,p4) || validMove;
@@ -323,9 +323,42 @@ $(function() {
 
        },0);
 
+    });
+    
+    $(".newGame").click(function(){
+    	$.ajax({
+                type: "POST",
+                url: "http://localhost:8888/logic/new",
+                dataType:  "json",
+                data: {}
 
+            }).done(function(data){
+                location.reload();
+            }).fail(function(err){console.log(err);});
+    });
+    
+    $(".undo").click(function(){
+    	$.ajax({
+                type: "POST",
+                url: "http://localhost:8888/logic/undo",
+                dataType:  "json",
+                data: {}
 
-
+            }).done(function(data){
+                location.reload();
+            }).fail(function(err){console.log(err);});
+    });
+    
+    $(".debugButton").click(function(){
+    	debug = !debug;
+    	if(debug){
+    		$(".debug").show();
+    		$(".debugButton").css("background","linear-gradient(#ff0084,#33001b)");
+    	}
+    	else{
+    		$(".debug").hide();
+    		$(".debugButton").css("background", "linear-gradient(#485563,#29323c)");
+    	}
     });
 
     //$( "#draggable2" ).draggable({ revert: "invalid" });

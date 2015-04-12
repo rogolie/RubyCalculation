@@ -13,15 +13,10 @@ class Api::Point2CardsController < ApplicationController
     end
   end
   
-  def show
-    
-  end
-  
   def top
     @card = Point2Card.last
     render json: @card
   end
-
 
   # GET /cards/new
   def new
@@ -32,6 +27,10 @@ class Api::Point2CardsController < ApplicationController
     @card = Point2Card.last
     render json: @card
   end
+
+  def show
+  end
+
   # GET /cards/2/edit
   def edit
   end
@@ -68,12 +67,14 @@ class Api::Point2CardsController < ApplicationController
     if(params.has_key?(:card_id))
       @Point2Card = Point2Card.find_by_card_id(params[:card_id])
       @Point2Card.destroy
+    elsif(params.has_key?(:id))
+      @Point2Card = Point2Card.find_by_card_id(params[:id])
+      @Point2Card.destroy
     else
       Point2Card.delete_all
     end
     render json: {}, status: :no_content
   end
-
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_Point2Card
