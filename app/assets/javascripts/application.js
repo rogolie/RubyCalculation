@@ -63,13 +63,20 @@ $(function() {
         if ((pileVal + iter) > 13)
             pileVal-=13;
 
+		//check if pile is complete
+		if(pileVal == 13){
+			pile.droppable("disable");
+			return false;
+		}
         if(ident === (pileVal + iter)){
-            pile.droppable("enable")
+            pile.droppable("enable");
+            return true;
 
         } else {
-            pile.droppable("disable")
+            pile.droppable("disable");
+            return false;
         }
-    }
+    };
 
     //$(".card").click(function(){
     //    var id  = $(this).attr('alt');
