@@ -39,6 +39,29 @@ class GamePlayController < ApplicationController
 
   end
 
+  def cardToNum(num, iterator)
+    num[0] = ''
+    num = num.to_i
+    if num + iterator > 14
+      num -= 13
+    end
+
+      temp = num + iterator
+    case temp
+      when 11
+        temp = "J"
+      when 12
+        temp = "Q"
+      when 13
+        temp = "K"
+      when 1
+        temp = "A"
+    end
+
+    return temp
+  end
+  helper_method :cardToNum
+
   def moveMyCard(foundStack,stackStep)
     if foundStack.last != nil
       $fTemp = foundStack.last.value.to_i

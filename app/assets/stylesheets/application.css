@@ -42,6 +42,15 @@
     border: 1px solid;
 
 }
+.waste{
+    margin: 50px;
+}
+.box{
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
 h3 { clear: left; }
 
 ul{
@@ -51,7 +60,7 @@ ul{
     margin: 0;
 }
 li:not(:first-child) {
-    margin-top: -55px;
+    margin-top: -70px;
 }
 
 li{
@@ -69,4 +78,8 @@ button{
 
 .debug{
 	display: none;
+}
+.hint{
+
+    font-size: 12pt;
 }

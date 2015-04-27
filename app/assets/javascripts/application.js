@@ -360,6 +360,9 @@ $(function() {
     		$(".debugButton").css("background", "linear-gradient(#485563,#29323c)");
     	}
     });
+    $(".hintButton").click(function(){
+        $(".hint").toggle();
+    });
 
     //$( "#draggable2" ).draggable({ revert: "invalid" });
     //$( "#droppable2" ).droppable({

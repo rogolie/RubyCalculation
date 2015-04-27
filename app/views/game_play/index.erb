@@ -17,6 +17,7 @@
   <button class="newGame">New Game</button>
   <button class="undo">Undo</button>
   <button class="debugButton">Debug</button>
+  <button class="hintButton">Toggle Hints</button>
 
 
 
@@ -33,21 +34,32 @@
       </div>
     </div>
 </div>
-    <div class="col-lg-8">
+    <div class="col-lg-10">
       <h3>Foundations</h3>
-
+    <div class="box">
     <div id="point1" class="ui-widget-header foundation stack">
       <%= image_tag($found1.last.id+'.png', alt: $found1.last.id,  ) %>
     </div>
+      <p class="hint">Next Card Value: <%= cardToNum($found1.last.id, 1) %></p>
+    </div>
+      <div class="box">
     <div id="point2" class="ui-widget-header foundation stack">
       <%= image_tag($found2.last.id+'.png', alt: $found2.last.id,  ) %>
     </div>
+      <p class="hint">Next Card Value: <%= cardToNum($found2.last.id, 2) %></p>
+        </div>
+      <div class="box">
     <div id="point3" class="ui-widget-header foundation stack">
       <%= image_tag($found3.last.id+'.png', alt: $found3.last.id,  ) %>
     </div>
+      <p class="hint">Next Card Value: <%= cardToNum($found3.last.id, 3) %></p>
+        </div>
+      <div class="box">
     <div id="point4" class="ui-widget-header foundation stack">
       <%= image_tag($found4.last.id+'.png', alt: $found4.last.id,  ) %>
     </div>
+      <p class="hint">Next Card Value: <%= cardToNum($found4.last.id, 4) %></p>
+        </div>
     </div>
 </div>
 
